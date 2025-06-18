@@ -459,6 +459,11 @@ extension CLPlayerView {
             seekTime = time
         }
     }
+    
+    /// 是否设置静音
+    func setMute(_ isMute: Bool) {
+        player?.isMuted = isMute
+    }
 }
 
 // MARK: - JmoVxia---UIViewControllerTransitioningDelegate

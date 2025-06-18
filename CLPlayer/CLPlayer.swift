@@ -162,4 +162,9 @@ public extension CLPlayer {
     func seek(to time: CLPlayerSeek) {
         playerView.seek(to: time)
     }
+    
+    /// 是否设置静音
+    func setMute(_ isMute: Bool) {
+        playerView.setMute(isMute)
+    }
 }
